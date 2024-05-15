@@ -1,7 +1,7 @@
 services:
   bot:
     container_name: bot
-    build: ./tgbot
+    build: ./bot
     environment:
       HOST: ${RM_HOST}
       PORT: ${RM_PORT}
